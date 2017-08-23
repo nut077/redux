@@ -1,0 +1,11 @@
+{
+  "name": "redux",
+  "version": "1.0.0",
+  "description": "test redux",
+  "main": "index.js",
+  "author": "Nut Freedom",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npm run dev --prefix client"
+  }
+}
