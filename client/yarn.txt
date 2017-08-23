@@ -1,0 +1,25 @@
+yarn init
+yarn add --dev webpack webpack-dev-server
+yarn add react react-dom
+yarn add --dev babel-core babel-preset-env babel-preset-react
+yarn add --dev babel-loader
+yarn add --dev react-hot-loader@next
+yarn add --dev sass-loader node-sass css-loader style-loader
+yarn add --dev postcss-loader postcss-import postcss-cssnext
+yarn add --dev eslint-loader eslint-config-react-app babel-eslint@7.2.3 eslint@3.19.0 eslint-plugin-flowtype@2.33.0 eslint-plugin-import@2.2.0 eslint-plugin-jsx-a11y@5.0.1 eslint-plugin-react@7.0.1
+yarn run dev
+
+
+
+
+webpack.config.js
+devtool :  --order by fast desc
+'eval'  -- production -> no,
+'cheap-eval-source-map'  -- production -> no,
+'cheap-source-map'  -- production -> yes,
+'cheap-module-eval-source-map'  -- production -> no,
+'cheap-module-source-map'  -- production -> yes,
+'evel-source-map'  -- production -> no,
+'source-map'  -- production -> yes,
+'nosource-source-map'  -- production -> yes
+
