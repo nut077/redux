@@ -1,12 +1,9 @@
 import React from 'react'
-
-function getMessage() {
-  return 'Hello World eiei 77'
-}
+import {BrowserRouter as Router} from 'react-router-dom'
+import {App} from 'Containers'
 
 export default () => (
-  <div>
-    <h1>{getMessage()}</h1>
-    <div>Hello React Hot Loader eiei</div>
-  </div>
+ <Router>
+   <App/>
+ </Router>
 );
